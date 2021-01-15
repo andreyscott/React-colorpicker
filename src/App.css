@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+}
+
+.ui.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 55px;
+  width: 30%;
+  height: 30%;
+  border-radius: 10%;
+  background: #da22ff;
+  background: -webkit-linear-gradient(to right, #60229e, #da22ff);
+  background: linear-gradient(to right, #60229e, #da22ff);
+}
+
+.header {
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.search {
+  border-radius: 10%;
+  font-family: monospace;
+}
